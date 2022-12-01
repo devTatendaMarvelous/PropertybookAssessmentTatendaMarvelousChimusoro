@@ -31,7 +31,7 @@
                                         <td>{{ $hero->heading }}</td>
                                         <td>{{ $hero->paragraph }}</td>
                                         
-                                        <td><img class="hero-image" src="{{  asset('/storage/'.$hero->photo) }}" alt="No Photo"></td>
+                                        <td><img style="max-width: 30%;" src="{{$hero->photo? asset('storage/'.$hero->photo): asset('assets/defaults/her.png') }}"alt="No Photo"></td>
                                         <td><a class="success p-0" href="/hero/{{ $hero->id }}/edit" data-original-title="" title="Edit">
                                                 <i class="fa fa-pencil font-medium-3 mr-2"></i>
                                             </a>

@@ -120,7 +120,7 @@
                  <div class="col-md-4">
                     <div class="card  service">
                          <div class="service-icon">
-                              <img src="{{ $service->icon? asset('storage/'.$service->icon): asset('bootstrap.PNG') }}"  >
+                              <img src="{{ $service->icon? asset('storage/'.$service->icon): asset('bootstrap.png') }}"  >
                          </div>
                          <h3 class="service-header">
                               {{ $service->title }}

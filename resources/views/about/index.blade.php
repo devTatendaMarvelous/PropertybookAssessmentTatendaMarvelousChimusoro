@@ -30,7 +30,7 @@
                                 <tr>
                                     @unless (!$about)
                                     
-                                        <td><img class="about-image" src="{{  asset('/storage/'.$about->photo) }}" alt="No Photo"></td>
+                                        <td><img class="about-image" src="{{$about->photo? asset('storage/'.$about->photo): asset('assets/defaults/about.png') }}"" alt="No Photo"></td>
                                         <td>{{ $about->heading }}</td>
                                         <td>{{ $about->who_we_are }}</td>
                                          <td>{{ $about->vision }}</td>

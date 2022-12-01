@@ -9,7 +9,7 @@ use App\Models\Footer;
 use App\Models\Service;
 use Illuminate\Http\Request;
 
-class LadingPageController extends Controller
+class LandingPageController extends Controller
 {
     public function index()
    

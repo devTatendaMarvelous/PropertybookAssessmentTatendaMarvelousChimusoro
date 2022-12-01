@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LadingPageController;
+use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\UserProfileController;
 use App\Http\Controllers\HeroController;
 use App\Http\Controllers\AboutController;
@@ -9,7 +9,7 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\PricesController;
 use App\Http\Controllers\FooterController;
 
-  Route::get('/',[LadingPageController::class,'index'] );
+  Route::get('/',[LandingPageController::class,'index'] );
   Route::get('/admin',function(){
     return redirect('home');
   });
