@@ -18,8 +18,9 @@ class ServiceFactory extends Factory
     {
         return [
            
-           'title'=>'Refreshing Design',
+           'title'=>'Refreshing Design'.$this->faker->numberBetween(1,6),
             'description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatum eum explicabo qui sit quidem op explicabo qui sit quidem op explicabo qui sit quidem op',
+
            
         ];
     }
