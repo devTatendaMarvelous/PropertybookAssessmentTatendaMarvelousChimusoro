@@ -55,7 +55,7 @@
                          </div>
                          <div class="right-hero-content col-md-6">
                               <div >
-                                   <img class="hero-image" src="{{$hero->photo? asset('storage/'.$hero->photo): asset('storage/defaults/her.png') }}" alt="">
+                                   <img class="hero-image" src="{{$hero->photo? asset('storage/'.$hero->photo): asset('assets/defaults/her.png') }}" alt="">
                               </div>
                          </div>
                     </div>
@@ -66,7 +66,7 @@
      <section id="about">
                <div class="row">
                     <div class="col-md-6">
-                         <img src="{{ $about->photo? asset('storage/'.$about->photo): asset('storage/defaults/about.png') }}" alt="" class="ml-3 about-image">
+                         <img src="{{ $about->photo? asset('storage/'.$about->photo): asset('assets/defaults/about.png') }}" alt="" class="ml-3 about-image">
                     </div>
                     <div class="col-md-6"><br>
                         <hr class="blue-line"><h1 class="story"> OUR STORY</h1><br>
