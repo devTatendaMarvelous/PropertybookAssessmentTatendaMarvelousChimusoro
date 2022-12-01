@@ -7,17 +7,13 @@
      <title>Propertybook Assessment | By Tatenda Marvelous Chimusoro</title>
      <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
-       <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/feather/style.min.css') }}">
-         <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/font-awesome/css/font-awesome.min.css')}}">
-                  <link rel="stylesheet" type="text/css" href="{{ asset('assets/feather/style.css')}}">
+     <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/feather/style.min.css') }}">
+     <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/font-awesome/css/font-awesome.min.css')}}">
+     <link rel="stylesheet" type="text/css" href="{{ asset('assets/feather/style.css')}}">
     
-     
 </head>
 <body  id="top">
      <section id="hero">
-         
-
-
                <div class="text-white">
                 <nav class="p-4 ">
                     <div class="row">
@@ -47,7 +43,6 @@
                                     <div class="col-md-6">
                                         <div class="intro">
                                              <a  href="#"><span class="hero-play mt-5 text-center" ><i class="ft-play"></i></span> <span class="intro-text ml-3 ">Watch Intro</span>  </a>
-                                             {{-- <a  href="#"><span  ><img class="hero-play mb-3 " src="{{ asset('play.png') }}" alt=""></span> <span class="intro-text ml-3 ">Watch Intro</span>  </a> --}}
                                             
                                         </div>
                                    </div>
@@ -76,12 +71,9 @@
                          <div class="about-content">
                                <div id="tabs">
 
-  </div>
-</div>
+                     </div>
+                    </div>
                               <div class="tabs">
-                                   
-
-
                                    <div class="tab">
                                         <button class="btn btn-primary about-btn tablinks " onclick="openTab(event, 'who')" id="defaultOpen"><span class="btn-text">Who We Are</span></button>
                                         <button class="tablinks btn btn-light about-btn " onclick="openTab(event, 'vision')"><span class="btn-text"> Our Vision</button>
@@ -176,10 +168,7 @@
                       @empty
                         
                       @endforelse
-                         
-                        
-                        
-                          
+                       
                     </div>
                 </div>
      </section>
@@ -195,7 +184,7 @@
                </p>
           </div>
      </footer>
-   {{-- <a href="#top" id="goToTop" onclick="scrollToTop();return false">Back to Top &uarr;</a> --}}
+   
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top &uarr; </button> 
 
 <script src="assets/js/landing.js"></script>

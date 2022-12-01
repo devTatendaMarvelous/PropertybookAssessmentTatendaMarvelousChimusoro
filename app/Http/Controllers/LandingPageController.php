@@ -11,9 +11,11 @@ use Illuminate\Http\Request;
 
 class LandingPageController extends Controller
 {
+    // showing the ladning page of the website that has dynamic data from the database
     public function index()
    
    {
+
         try {
 
             $prices=Price::orderBy('price','asc')->limit(3)->get();

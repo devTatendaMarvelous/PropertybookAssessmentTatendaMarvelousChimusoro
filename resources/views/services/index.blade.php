@@ -1,5 +1,5 @@
 <x-dash>
-     <!-- Zero configuration table -->
+  
 <section id="configuration">
     <div class="row">
         <div class="col-12">
@@ -61,16 +61,11 @@
         </div>
     </div>
 </section>
-<!--/ Zero configuration table -->
+
 
             </div>
           </div>
         </div>
-
-        
-
       </div>
     </div>
-    <!-- ////////////////////////////////////////////////////////////////////////////-->
-
 </x-dash>

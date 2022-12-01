@@ -1,15 +1,3 @@
-/*=========================================================================================
-    File Name: ChartJs.js
-    Description: Chartjs chart
-    ----------------------------------------------------------------------------------------
-    Item Name: Convex - Bootstrap 4 HTML Admin Dashboard Template
-    Version: 1.0
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
-
-// Line chart
-// ------------------------------
 (function(window, document, $) {
     'use strict';
     $(window).on("load", function () {

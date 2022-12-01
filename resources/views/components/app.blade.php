@@ -27,7 +27,6 @@
 
 <link rel="stylesheet" type="text/css" href="{{ asset('cart.css') }}">
      <script src="{{ asset('cart.js') }}"></script>
-
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/feather/style.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/simple-line-icons/style.css') }}">
@@ -35,9 +34,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/css/perfect-scrollbar.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/css/prism.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/app.css') }}">
-
-     
-    
 </head>
 <body >
     <div class="wrapper " class="fill" style=" background-image:url({{asset('gym/images/b3.jpg')}})">
@@ -66,8 +62,6 @@
            {{$slot}}
         </main>
     </div>
-
-    
     <!-- BEGIN VENDOR JS-->
     <script src="{{ asset('assets/vendors/js/core/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('assets/vendors/js/core/popper.min.js') }}"></script>
@@ -76,15 +70,8 @@
     <script src="{{ asset('assets/vendors/js/prism.min.js') }}"></script>
     <script src="{{ asset('assets/vendors/js/jquery.matchHeight-min.js') }}"></script>
     <script src="{{ asset('assets/vendors/js/screenfull.min.js') }}"></script>
-    <script src="{{ asset('assets/vendors/js/pace/pace.min.js') }}"></script>
-    <!-- BEGIN VENDOR JS-->
-    <!-- BEGIN PAGE VENDOR JS-->
-    <!-- END PAGE VENDOR JS-->
-    <!-- BEGIN CONVEX JS-->
+    <script src="{{ asset('assets/vendors/js/pace/pace.min.js') }}"></script> 
     <script src="{{ asset('assets/js/app-sidebar.js') }}"></script>
     <script src="{{ asset('assets/js/notification-sidebar.js') }}"></script>
-    <!-- END CONVEX JS-->
-    <!-- BEGIN PAGE LEVEL JS-->
-    <!-- END PAGE LEVEL JS-->
 </body>
 </html>

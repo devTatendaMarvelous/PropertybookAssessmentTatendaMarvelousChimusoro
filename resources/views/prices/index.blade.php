@@ -1,5 +1,4 @@
 <x-dash>
-     <!-- Zero configuration table -->
 <section id="configuration">
     <div class="row">
         <div class="col-12">
@@ -37,8 +36,6 @@
                                 
                                 @forelse ($prices as $price)
                                 <tr>
-                                        
-                                      
                                         <td>{{ $price->title }}</td>
                                         <td>{{ $price->description }}</td>
                                         <td>{{ $price->price }}</td>
@@ -69,16 +66,12 @@
         </div>
     </div>
 </section>
-<!--/ Zero configuration table -->
+
 
             </div>
           </div>
         </div>
-
-        
-
-      </div>
+</div>
     </div>
-    <!-- ////////////////////////////////////////////////////////////////////////////-->
 
 </x-dash>

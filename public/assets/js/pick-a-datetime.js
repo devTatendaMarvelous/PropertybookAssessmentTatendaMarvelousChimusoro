@@ -1,12 +1,3 @@
-/*=========================================================================================
-    File Name: picker-date-time.js
-    Description: Pick a date/time Picker, Date Range Picker JS
-    ----------------------------------------------------------------------------------------
-    Item Name: Convex - Bootstrap 4 HTML Admin Dashboard Template
-    Version: 1.0
-    Author: Pixinvent
-    Author URL: hhttp://www.themeforest.net/user/pixinvent
-==========================================================================================*/
 (function(window, document, $) {
 	'use strict';
 

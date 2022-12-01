@@ -1,10 +1,6 @@
  <div data-active-color="white" data-background-color="crystal-clear" data-image="{{ asset('assets/img/sidebar-bg/08.jpg')}}" class="app-sidebar">
         <div class="sidebar-header">
-         
-         
-              
-              
-          <div class="logo clearfix"><a href="/home" class="logo-text float-left">
+        <div class="logo clearfix"><a href="/home" class="logo-text float-left">
                 <div class="logo pull-left"><a href="/">
 
               <img style="max-width:80px;" src="{{ asset('logo.png') }}" alt=""><span class="text-white text-bold" style="font-weight:bold; font-size:1.7rem;">Business</span> 

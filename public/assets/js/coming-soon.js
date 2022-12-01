@@ -1,16 +1,4 @@
-/*=========================================================================================
-    File Name: coming-soon.js
-    Description: Coming Soon
-    ----------------------------------------------------------------------------------------
-    Item Name: Convex - Bootstrap 4 HTML Admin Dashboard Template
-    Version: 2.0
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
 
-/*******************************
-*       js of Countdown        *
-********************************/
 (function(window, document, $) {
     'use strict';
     $(document).ready(function() {

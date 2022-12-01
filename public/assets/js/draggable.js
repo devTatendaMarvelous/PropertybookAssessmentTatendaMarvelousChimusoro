@@ -1,13 +1,3 @@
-/*=========================================================================================
-	File Name: drag-drop.js
-	Description: drag & drop elements using dragula js
-	--------------------------------------------------------------------------------------
-	Item Name: Convex - Bootstrap 4 HTML Admin Dashboard Template
-	Version: 1.0
-	Author: GeeksLabs
-	Author URL: http://www.themeforest.net/user/geekslabs
-==========================================================================================*/
-
 (function(window, document, $) {
     'use strict';
 	$(document).ready(function(){

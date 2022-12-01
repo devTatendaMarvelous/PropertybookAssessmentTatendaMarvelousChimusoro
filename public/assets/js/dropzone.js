@@ -1,12 +1,4 @@
-/*=========================================================================================
-    File Name: dropzone.js
-    Description: dropzone
-    --------------------------------------------------------------------------------------
-    Item Name: Robust - Responsive Admin Theme
-    Version: 1.2
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
+
 (function(window, document, $) {
     'use strict';
     Dropzone.options.dpzSingleFile = {

@@ -1,9 +1,4 @@
-﻿//[custom Javascript]
-//Project:	Compass - Responsive Bootstrap 4 Template
-//Version:  1.0
-//Last change:  15/12/2017
-//Primary use:	Compass - Responsive Bootstrap 4 Template
-//should be included in all pages. It controls some layout
+﻿
 $(function() {
     "use strict";
     initSparkline();    

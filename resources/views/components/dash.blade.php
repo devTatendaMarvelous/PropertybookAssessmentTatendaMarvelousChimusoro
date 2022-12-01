@@ -23,14 +23,12 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/font-awesome/css/font-awesome.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/css/perfect-scrollbar.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/css/prism.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/css/chartist.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/vendors/css/tables/datatable/datatables.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/app.css')}}">
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css')}}">
 
   </head>
   <body data-col="2-columns" class=" 2-columns ">
-    <!-- ////////////////////////////////////////////////////////////////////////////-->
     <div class="wrapper">
 
 
@@ -42,7 +40,7 @@
       <div class="main-panel">
         <div class="main-content">
           <div class="content-wrapper">
-            <div class="container-fluid"><!--Statistics cards Starts-->
+            <div class="container-fluid">
 {{$slot}}
           </div>
             </div>
@@ -51,7 +49,6 @@
 
       </div>
     </div>
-    <!-- ////////////////////////////////////////////////////////////////////////////-->
 
    <x-rightsidebar/>
    
@@ -74,8 +71,7 @@
     <script src="{{ asset('assets/js/customizer.js')}}"></script>
     <!-- END CONVEX JS-->
     <!-- BEGIN PAGE LEVEL JS-->
-    <script src="{{ asset('assets/js/dashboard-ecommerce.js')}}"></script>
-    <!-- END PAGE LEVEL JS-->
+    
 
 
     <!-- BEGIN PAGE VENDOR JS-->

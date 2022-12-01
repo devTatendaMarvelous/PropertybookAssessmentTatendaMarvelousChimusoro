@@ -1,6 +1,5 @@
 <x-dash>
-            
-<!-- Input Validation start -->
+
 <section class="input-validation">
     <div class="row">
         <div class="col-md-12">

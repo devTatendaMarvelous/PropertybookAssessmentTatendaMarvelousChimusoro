@@ -1,15 +1,4 @@
-/*=========================================================================================
-    File Name: maps.js
-    Description: google maps
-    ----------------------------------------------------------------------------------------
-    Item Name: Convex - Bootstrap 4 HTML Admin Dashboard Template
-    Version: 1.0
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
 
-// Gmaps Maps
-// ------------------------------
 (function(window, document, $) {
     'use strict';
     $(window).on("load", function(){

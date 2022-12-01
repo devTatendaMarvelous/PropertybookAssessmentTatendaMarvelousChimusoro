@@ -1,12 +1,3 @@
-/*=========================================================================================
-	File Name: rating.js
-	Description: ratings
-	----------------------------------------------------------------------------------------
-	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-	Version: 1.0
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
-==========================================================================================*/
 (function(window, document, $) {
     'use strict';
 	$(document).ready(function(){
